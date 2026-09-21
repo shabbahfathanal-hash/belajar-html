@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Belajar Tag HTML</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+      h2 {
+        color: #333;
+        background: #ffc107;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      h3 {
+        color: #444;
+        margin-top: 20px;
+      }
+      audio,
+      video {
+        margin: 10px 0;
+        border-radius: 10px;
+      }
+      details {
+        background: white;
+        padding: 10px;
+        margin: 10px auto;
+        width: 50%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      p {
+        font-size: 18px;
+      }
+      mark {
+        background-color: yellow;
+        font-weight: bold;
+      }
+      progress {
+        width: 50%;
+        height: 20px;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Belajar TAG HTML</h2>
+
+    <h3>1. Tag audio</h3>
+    <audio controls>
+      <source src="File/audio1.mp3" type="audio/mpeg" />
+    </audio>
+    <audio controls>
+      <source src="File/audio2.mp3" type="audio/mpeg" />
+    </audio>
+
+    <h3>2. Tag video</h3>
+    <video width="320" height="240" controls>
+      <source src="File/video1.mp4" type="video/mp4" />
+    </video>
+
+    <h3>3. Tag details dan summary</h3>
+    <details>
+      <summary>Klik untuk melihat detail</summary>
+      Shabbah Fathan Al Adzkya
+    </details>
+
+    <h3>4. Tag mark</h3>
+    <p>Nama panggilan saya <mark>Jack</mark></p>
+
+    <h3>5. Tag progress</h3>
+    <p>Kemajuan proses:</p>
+    <progress value="70" max="100"></progress>
+  </body>
+</html>
